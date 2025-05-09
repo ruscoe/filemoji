@@ -1,0 +1,16 @@
+{
+  "name": "filemoji",
+  "version": "1.0.0",
+  "description": "A JavaScript library that will automatically prepend emoji to file links.",
+  "main": "filemoji.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ruscoe/filemoji.git"
+  },
+  "author": "Dan Ruscoe",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ruscoe/filemoji/issues"
+  },
+  "homepage": "https://github.com/ruscoe/filemoji#readme"
+}
