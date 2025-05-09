@@ -19,3 +19,7 @@ Add to the bottom of your HTML file:
         Filemoji.init();
     </script>
 ```
+
+Alternatively, load the JS file from the CDN:
+
+`<script src="https://unpkg.com/filemoji@latest/filemoji.js"></script>`
