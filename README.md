@@ -1,3 +1,5 @@
+![Filemoji](https://github.com/user-attachments/assets/6183a0f0-1fdd-49f3-8395-b2d6422b9748)
+
 # Filemoji
 
 Filemoji is a JavaScript library that will scan anchor (`<a>`) elements on the page
