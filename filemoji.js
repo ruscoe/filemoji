@@ -22,7 +22,7 @@ window.Filemoji = {
     init() {
         // Map file extensions to emojis.
         const iconMap = {
-            pdf: '\u{1F4C4}',   // 📄
+            pdf: '\u{1F4F0}',   // 📰
             zip: '\u{1F5DC}',   // 🗜️
             rar: '\u{1F5DC}',   // 🗜️
             doc: '\u{1F4DD}',   // 📝
@@ -30,7 +30,7 @@ window.Filemoji = {
             xls: '\u{1F4C8}',   // 📈
             xlsx: '\u{1F4C8}',  // 📈
             txt: '\u{1F4C4}',   // 📄
-            xml: '\u{1F4DC}',   // 📝
+            xml: '\u{1F4C3}',   // 📃
             mp3: '\u{1F3B5}',   // 🎵
             wav: '\u{1F3B5}',   // 🎵
             mp4: '\u{1F3AC}',   // 🎬
