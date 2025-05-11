@@ -5,6 +5,8 @@
 Filemoji is a JavaScript library that will scan anchor (`<a>`) elements on the page
 and prepend an emoji based on the file type of the link target.
 
+[Find Filemoji in npm package manager](https://www.npmjs.com/package/filemoji)
+
 ## Live demo
 
 [Live Filemoji demo](https://ruscoe.org/filemoji/)
