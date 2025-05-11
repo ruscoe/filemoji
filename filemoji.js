@@ -22,22 +22,42 @@ window.Filemoji = {
     init() {
         // Map file extensions to emojis.
         const iconMap = {
-            pdf: '\u{1F4F0}',   // 📰
-            zip: '\u{1F5DC}',   // 🗜️
-            rar: '\u{1F5DC}',   // 🗜️
-            doc: '\u{1F4DD}',   // 📝
-            docx: '\u{1F4DD}',  // 📝
-            xls: '\u{1F4C8}',   // 📈
-            xlsx: '\u{1F4C8}',  // 📈
-            txt: '\u{1F4C4}',   // 📄
-            xml: '\u{1F4C3}',   // 📃
-            mp3: '\u{1F3B5}',   // 🎵
-            wav: '\u{1F3B5}',   // 🎵
-            mp4: '\u{1F3AC}',   // 🎬
-            mov: '\u{1F3AC}',   // 🎬
-            avi: '\u{1F4FD}',   // 📽️
-            exe: '\u{26A0}',    // ⚠️
-            csv: '\u{1F4CA}'    // 📊
+            zip: '\u{1F5DC}',  // 🗜️
+            rar: '\u{1F5DC}',  // 🗜️
+            tar: '\u{1F5DC}',  // 🗜️
+            gz: '\u{1F5DC}',   // 🗜️
+            bz2: '\u{1F5DC}',  // 🗜️
+            pdf: '\u{1F4F0}',  // 📰
+            doc: '\u{1F4DD}',  // 📝
+            docx: '\u{1F4DD}', // 📝
+            xls: '\u{1F4C8}',  // 📈
+            xlsx: '\u{1F4C8}', // 📈
+            ppt: '\u{1F4CA}',  // 📊
+            pptx: '\u{1F4CA}', // 📊
+            odt: '\u{1F4C4}',  // 📄
+            txt: '\u{1F4C4}',  // 📄
+            rtf: '\u{1F4C4}',  // 📄
+            xml: '\u{1F4C4}',  // 📄
+            csv: '\u{1F4CA}',  // 📄
+            jpg: '\u{1F5BC}',  // 🖼️
+            jpeg: '\u{1F5BC}', // 🖼️
+            png: '\u{1F5BC}',  // 🖼️
+            gif: '\u{1F5BC}',  // 🖼️
+            bmp: '\u{1F5BC}',  // 🖼️
+            svg: '\u{1F5BC}',  // 🖼️
+            webp: '\u{1F5BC}', // 🖼️
+            ico: '\u{1F5BC}',  // 🖼️
+            mp3: '\u{1F3B5}',  // 🎵
+            wav: '\u{1F3B5}',  // 🎵
+            ogg: '\u{1F3B5}',  // 🎵
+            m4a: '\u{1F3B5}',  // 🎵
+            flac: '\u{1F3B5}', // 🎵
+            mp4: '\u{1F4FD}',  // 📽️
+            mov: '\u{1F4FD}',  // 📽️
+            avi: '\u{1F4FD}',  // 📽️
+            mkv: '\u{1F4FD}',  // 📽
+            webm: '\u{1F4FD}', // 📽️
+            exe: '\u{26A0}'    // ⚠️
         };
 
         // Process each <a> element.
