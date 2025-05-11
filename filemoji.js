@@ -57,7 +57,7 @@ window.Filemoji = {
             avi: '\u{1F4FD}',  // 📽️
             mkv: '\u{1F4FD}',  // 📽
             webm: '\u{1F4FD}', // 📽️
-            exe: '\u{26A0}'    // ⚠️
+            exe: '\u{1F4BE}'   // 💾
         };
 
         // Process each <a> element.
