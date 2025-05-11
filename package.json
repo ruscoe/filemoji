@@ -1,6 +1,6 @@
 {
   "name": "filemoji",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JavaScript library that will automatically prepend emoji to file links.",
   "main": "filemoji.js",
   "repository": {
