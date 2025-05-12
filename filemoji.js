@@ -20,7 +20,7 @@ window.Filemoji = {
      * Initializes Filemoji and processes all matching file links on the page.
      */
     init() {
-        // Map file extensions to emojis.
+        // Map file extensions to emoji.
         const iconMap = {
             zip: '\u{1F5DC}',  // 🗜️
             rar: '\u{1F5DC}',  // 🗜️
@@ -74,7 +74,7 @@ window.Filemoji = {
 
             // Avoid processing twice.
             if (!link.classList.contains('filemoji-processed')) {
-                // Prepend the icon to the link text.
+                // Prepend the emoji to the link text.
                 const iconSpan = document.createElement('span');
                 iconSpan.textContent = `${icon} `;
                 iconSpan.setAttribute('aria-hidden', 'true');
